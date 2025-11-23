@@ -14,21 +14,19 @@ public class Producto {
     }
     
 
-    public Producto(String nombre, String modelo, String descripcion, Categoria categoria, ProductoAltaTecnologia productoAltaTecnologia) {
+    public Producto(String nombre, String modelo, String descripcion, Categoria categoria) {
         this.nombre = nombre;
         this.modelo = modelo;
         this.descripcion = descripcion;
         this.categoria = categoria;
-        this.productoAltaTecnologia = productoAltaTecnologia;
     }
 
-    public Producto(int idProducto, String nombre, String modelo, String descripcion, Categoria categoria, ProductoAltaTecnologia productoAltaTecnologia) {
+    public Producto(int idProducto, String nombre, String modelo, String descripcion, Categoria categoria) {
         this.idProducto = idProducto;
         this.nombre = nombre;
         this.modelo = modelo;
         this.descripcion = descripcion;
         this.categoria = categoria;
-        this.productoAltaTecnologia = productoAltaTecnologia;
     }
 
     // Getters y Setters
