@@ -14,4 +14,15 @@ public class DatabaseConfig {
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(JDBC_URL, USER, PASSWORD);
     }
+
+    public static void closeConnection(Connection conn) {
+    if (conn != null) {
+        try {
+            conn.close(); 
+        } catch (SQLException e) {
+            System.err.println("Error al cerrar la conexión: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+}
 }

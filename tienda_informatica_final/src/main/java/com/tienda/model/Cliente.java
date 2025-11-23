@@ -11,7 +11,7 @@ public class Cliente {
     public Cliente() {
     }
     
-
+    // Constructor para inserción (sin ID)
     public Cliente(String nombre, String apellido, Direccion direccion, Telefono telefono) {
         this.nombre = nombre;
         this.apellido = apellido;
@@ -19,7 +19,7 @@ public class Cliente {
         this.telefono = telefono;
     }
 
-
+    // Constructor completo
     public Cliente(int idCliente, String nombre, String apellido, Direccion direccion, Telefono telefono) {
         this.idCliente = idCliente;
         this.nombre = nombre;

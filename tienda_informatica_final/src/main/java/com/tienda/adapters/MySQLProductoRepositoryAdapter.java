@@ -8,7 +8,6 @@ import com.tienda.model.CategoriaAltaTecnologia;
 import com.tienda.util.DatabaseConfig;
 
 import java.sql.*;
-import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.List;
 
